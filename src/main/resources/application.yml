@@ -1,0 +1,7 @@
+logging.level:
+  root: WARN
+  io.pivotal: DEBUG
+
+rabbitmq:
+  uri: amqp://guest:guest@localhost:5672
+  queue: amqp-demo-queue
