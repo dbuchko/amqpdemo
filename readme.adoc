@@ -1,0 +1,12 @@
+= AMQP Demo Project
+
+This project creates a simple RabbitMQ publisher and message consumer.
+
+== Instructions
+. Import the project into your favourite IDE and build the code.
+
+. Start your RabbitMQ server.
+
+. Run the application.
+
+. From a browser, hit the http://localhost:8080/publish[] endpoint.  The app will publish a message to the `amqp-demo-queue`, and consume that message, writing the contents of it (`Greetings!`) to the console.
